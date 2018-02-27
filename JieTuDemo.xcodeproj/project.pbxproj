@@ -15,9 +15,10 @@
 		DB5346ED20443096002AA1BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5346EC20443096002AA1BC /* main.m */; };
 		DB5346F720443096002AA1BC /* JieTuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5346F620443096002AA1BC /* JieTuDemoTests.m */; };
 		DB53470220443097002AA1BC /* JieTuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB53470120443097002AA1BC /* JieTuDemoUITests.m */; };
-		DB53472220443C14002AA1BC /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DB53472120443C14002AA1BC /* timg.jpeg */; };
 		DB53472520443CD5002AA1BC /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB53472420443CD5002AA1BC /* ResultViewController.m */; };
-		DB53472A20443E8A002AA1BC /* JieTuSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB53472820443E8A002AA1BC /* JieTuSDK.a */; };
+		DB63D5402044D86A00AD5EBA /* JieTuSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB63D53F2044D86900AD5EBA /* JieTuSDK.bundle */; };
+		DB63D5422044D8F100AD5EBA /* top.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB63D5412044D8F000AD5EBA /* top.jpg */; };
+		DB63D5482044DB5800AD5EBA /* JieTuSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB63D5472044DB5800AD5EBA /* JieTuSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +55,13 @@
 		DB5346FD20443097002AA1BC /* JieTuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JieTuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB53470120443097002AA1BC /* JieTuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JieTuDemoUITests.m; sourceTree = "<group>"; };
 		DB53470320443097002AA1BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB53472120443C14002AA1BC /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
 		DB53472320443CD4002AA1BC /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
 		DB53472420443CD5002AA1BC /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
-		DB53472720443E8A002AA1BC /* DragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragView.h; sourceTree = "<group>"; };
-		DB53472820443E8A002AA1BC /* JieTuSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = JieTuSDK.a; sourceTree = "<group>"; };
-		DB53472920443E8A002AA1BC /* JieTuSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JieTuSDK.h; sourceTree = "<group>"; };
+		DB63D52F2044D44700AD5EBA /* DragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragView.h; sourceTree = "<group>"; };
+		DB63D5302044D44700AD5EBA /* JieTuSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JieTuSDK.h; sourceTree = "<group>"; };
+		DB63D53F2044D86900AD5EBA /* JieTuSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JieTuSDK.bundle; sourceTree = "<group>"; };
+		DB63D5412044D8F000AD5EBA /* top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = top.jpg; sourceTree = "<group>"; };
+		DB63D5472044DB5800AD5EBA /* JieTuSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = JieTuSDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB53472A20443E8A002AA1BC /* JieTuSDK.a in Frameworks */,
+				DB63D5482044DB5800AD5EBA /* JieTuSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,8 +113,8 @@
 		DB5346DC20443096002AA1BC /* JieTuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DB63D5412044D8F000AD5EBA /* top.jpg */,
 				DB53472620443E8A002AA1BC /* JieTuSDKFiles */,
-				DB53472120443C14002AA1BC /* timg.jpeg */,
 				DB5346DD20443096002AA1BC /* AppDelegate.h */,
 				DB5346DE20443096002AA1BC /* AppDelegate.m */,
 				DB5346E020443096002AA1BC /* ViewController.h */,
@@ -149,11 +151,20 @@
 		DB53472620443E8A002AA1BC /* JieTuSDKFiles */ = {
 			isa = PBXGroup;
 			children = (
-				DB53472720443E8A002AA1BC /* DragView.h */,
-				DB53472820443E8A002AA1BC /* JieTuSDK.a */,
-				DB53472920443E8A002AA1BC /* JieTuSDK.h */,
+				DB63D5472044DB5800AD5EBA /* JieTuSDK.a */,
+				DB63D53F2044D86900AD5EBA /* JieTuSDK.bundle */,
+				DB63D52E2044D44700AD5EBA /* include */,
 			);
 			path = JieTuSDKFiles;
+			sourceTree = "<group>";
+		};
+		DB63D52E2044D44700AD5EBA /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DB63D52F2044D44700AD5EBA /* DragView.h */,
+				DB63D5302044D44700AD5EBA /* JieTuSDK.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB5346EA20443096002AA1BC /* LaunchScreen.storyboard in Resources */,
+				DB63D5422044D8F100AD5EBA /* top.jpg in Resources */,
 				DB5346E720443096002AA1BC /* Assets.xcassets in Resources */,
-				DB53472220443C14002AA1BC /* timg.jpeg in Resources */,
+				DB63D5402044D86A00AD5EBA /* JieTuSDK.bundle in Resources */,
 				DB5346E520443096002AA1BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

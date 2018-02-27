@@ -31,7 +31,7 @@
     doneItem.action = @selector(doneClick);
     
     _drag = [[DragView alloc] initWithFrame:CGRectMake(0, 0, WIDTH, HEIGHT)];
-    [_drag setImage:[UIImage imageNamed:@"timg.jpeg"]];
+    [_drag setImage:[UIImage imageNamed:@"top.jpg"]];
     [self.view addSubview:_drag];
     
 }
